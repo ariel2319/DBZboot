@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&family=Roboto:wght@300;400;700;900&display=swap');
 
 :root {
-  --shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.3), 0 4px 6px -2px rgba(0, 0, 0, 0.15);
+  --shadow: 4px 10px 15px -3px rgba(0, 0, 0, 0.45), 4px 4px 6px -2px rgba(0, 0, 0, 0.25);
   --radius: 4px;
   --bg-color: #fff;
   --main-text-color: DarkSlateGray;
@@ -76,7 +76,7 @@ body {
 }
 
 .card__logo--resize {
-  width: 30vw;
+  width: 60vw;
 }
 
 .tab__img--resize {
