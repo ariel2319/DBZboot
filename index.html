@@ -10,6 +10,7 @@
     integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="bootstrap.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.compat.css" />
   <title>Dragon Ball Films</title>
 </head>
 
@@ -43,7 +44,7 @@
               <a class="nav-link" href="#something">Data DB</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#"> Subscribe</a>
+              <a class="nav-link" href="#subs"> Subscribe</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#form">Contact Us</a>
@@ -312,9 +313,77 @@
 
       </div>
 
+    </section>
+
+    <!-- Subscribe -->
+    <section id="subs" class="d-flex flex-column align-items-center m-3">
+      <div class="alert alert-dismissible alert-warning w-50 h-50 my-5 p-1 rounded shadow">
+        <h1 class="alert-heading  d-flex justify-content-center text-center"> Subscribe </h1>
+      </div>
+
+      <div class="card-group w-75 text-center">
+        <div class="card text-success m-3">
+          <div class="card-footer">
+            <h5 class="card-title fs-3 ">1 Week</h5>
+          </div>
+          <div class="card-body">
+            <p class="card-text">Discount</p>
+            <p class="text-black fs-4 animate__animated animate__pulse animate__infinite">5%</p>
+          </div>
+        </div>
+
+        <div class="card text-primary m-3">
+          <div class="card-footer">
+            <h5 class="card-title fs-3">1 Month</h5>
+          </div>
+          <div class="card-body">
+            <p class="card-text">Discount</p>
+            <p class="text-black fs-4 animate__bounce animate__infinite">12%</p>
+          </div>
+        </div>
+
+        <div class="card text-danger m-3">
+          <div class="card-footer">
+            <h5 class="card-title fs-3 animate__bounce animate__infinite">1 Year</h5>
+          </div>
+          <div class="card-body">
+            <p class="card-text">Discount</p>
+            <p class="text-black fs-4">30%</p>
+          </div>
+        </div>
+      </div>
 
 
+      <form class="row g-3 w-75">
+        <div class="col-md-6">
+          <label for="inputEmail4" class="form-label">Name</label>
+          <input type="email" class="form-control" id="inputEmail4">
+        </div>
+        <div class="col-md-6">
+          <label for="inputPassword4" class="form-label">Last Name</label>
+          <input type="password" class="form-control" id="inputPassword4">
+        </div>
+        <div class="col-12">
+          <label for="inputAddress" class="form-label">Mail</label>
+          <input type="text" class="form-control" id="inputAddress" placeholder="pepito@gmail.com">
+        </div>
+        <div class="col-md-6">
+          <label for="inputCity" class="form-label">City</label>
+          <input type="text" class="form-control" id="inputCity">
+        </div>
+        <div class="col-md-4">
+          <label for="inputState" class="form-label">State</label>
+          <select id="inputState" class="form-select">
+            <option selected>Choose...</option>
+            <option>...</option>
+          </select>
+        </div>
 
+        <div class="col-12">
+          <button type="submit" class="btn btn-primary w-25">Sign in</button>
+          <button type="submit" class="btn btn-primary w-25">Sign in</button>
+        </div>
+      </form>
     </section>
 
     <!-- forms -->
