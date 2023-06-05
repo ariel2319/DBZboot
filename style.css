@@ -21,9 +21,9 @@
 }
 
 body {
-  /*   height: 100vh;
-  width: 100vw; */
-  /* background-image: url(https://pm1.narvii.com/6748/b449a84b14747368e6f931030e4b3de40b4c9d1fv2_hq.jpg); */
+  height: 100vh;
+  width: 100vw;
+  background-image: url(./assets/wall.webp);
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
